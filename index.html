@@ -1,60 +1,753 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="愛淯的個人網站，計入著許多生活動態，喜愛拍攝，將眼前看見的人事物記錄下來">
-        <meta name="author" content="愛淯">
-        <meta name="keywords" content="拍攝、生活紀錄">
-        <title>湞淯的網站</title>
-    </head>
 
-    <style>
-    .container {
-        display: flex;
-        justify-content: space-between;
-        width: 10%;
-    }
-    
-    
-    </style>
-    <body>
-        <h1>愛淯的個人網站</h1>
-        <img src="img/1.jpg" width="200">
-       <!-- <img src="img/0.jpg" width="200"> -->
-        <br>
-        <div class="container">
-        
-        <a href="https://instagram.com/huang_zheng_yu_photographer?igshid=NGVhN2U2NjQ0Yg==" style="color: rgb(176, 35, 35);" >IG</a>
-        <a href="https://www.facebook.com/profile.php?id=100012181176355&mibextid=ZbWKwL" style="color: rgb(140, 187, 240);">FB</a>
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/fevicon.png" type="image/x-icon">
+  <title>Finter</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <div class="hero_bg_box">
+      <img src="images/hero-bg.jpg" alt="">
     </div>
-        <P><b>喜歡隨走隨拍，紀錄生活每一刻，將眼前所見之物，利用動態或靜態的方式拍攝</b></P>
-   
-        <br>
-        <h2>相簿目錄</h2>
-        <ol type="1">
-            <li><a href="page1.html">內惟藝術中心</a></li>
-            <li><a href="page2.html">柴壽山</a></li>
-            <li><a href="page3.html">戶外踏青</a></li>
-            <li><a href="page4.html">萬聖節裝扮</a></li>
-        </ol>
-        <h2>興趣</h2>
-        <ol type="1">
-            <li>運動</li>
-            <li>彈吉他</li>
-            <li>聽音樂</li>
-        </ol>  
-        
-        <h2>台南景點介紹</h2>
-        
-        <ol type="1" >
-            <div class="p-txt"></div>
-            <li><a href="">景點</a></li>
-            <li><a href="">景點</a></li>
-            <li><a href="">景點</a></li>
-        </ol>
-        
-       
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid header_top_container">
 
-    </body>
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +01 123455678990
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                C111181103@nkust.edu.tw
+              </span>
+            </a>
+          </div>
+          <div class="social_box">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand " href="index.html"> Finter </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> Eat</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Hotels & Hostel</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html"> Attractions </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Preplanning</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <span>
+                      Login
+                    </span>
+                  </a>
+                </li>
+                <form class="form-inline justify-content-center">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </form>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-lg-10 col-md-11 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      Tainan <br>
+                      台南
+                    </h1>
+                    
+                    <div class="btn-box">
+                      <a href="" class="btn0">
+                        
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-lg-10 col-md-11 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      Tainan <br>
+                      台南
+                    </h1>
+                    
+                    <div class="btn-box">
+                      <a href="" class="btn0">
+                        
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-lg-10 col-md-11 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      Tainan <br>
+                      台南
+                    </h1>
+                    
+                    <div class="btn-box">
+                      <a href="" class="btn0">
+                       
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_btn-box">
+          <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center ">
+        <h2 class="">
+          Our Services
+        </h2>
+        <p class="col-lg-8 px-0">
+          If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+        </p>
+      </div>
+      <div class="service_container">
+        <div class="carousel-wrap ">
+          <div class="service_owl-carousel owl-carousel">
+            <div class="item">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s1.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Home Welding
+                  </h5>
+                  <p>
+                    when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s4.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Machine Welding
+                  </h5>
+                  <p>
+                    when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s6.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Car Welding
+                  </h5>
+                  <p>
+                    when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s1.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Home Welding
+                  </h5>
+                  <p>
+                    when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s4.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Machine Welding
+                  </h5>
+                  <p>
+                    when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s6.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Car Welding
+                  </h5>
+                  <p>
+                    when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- service section ends -->
+
+  <!-- about section -->
+
+  <section class="about_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="detail-box pr-md-2">
+            <div class="heading_container">
+              <h2 class="">
+                Eat
+              </h2>
+            </div>
+            <a href="https://www.facebook.com/people/%E5%A5%89%E5%8F%A3%E5%86%B0%E5%AE%A4-%E6%B1%A0%E4%B8%8A%E6%9C%AC%E5%BA%97/100064041610366/">奉口冰室</a>
+            <a href="https://www.facebook.com/profile.php?id=100089327223485&paipv=0&eav=AfbfoOr8Hn_LvqdKy-Xj1ZjpcNGqghUt8G7ROsyuIyxhD4UWG4iUaBtxk2EbCuIqAfQ&_rdr">森一男とんこつ拉麵</a>
+            <a href="https://www.facebook.com/dumplings.home/?locale=zh_TW">鍾記水餃之家</a>
+            <a href="https://www.facebook.com/sundayomeletterice/?locale=zh_TW">日曜日オムライス</a>
+            <a href="https://www.facebook.com/daimaru.curry/?locale=zh_TW">大丸家 Curry Rice</a>
+            <a href="https://www.facebook.com/photo?fbid=613414814297092&set=pcb.613414927630414">在古董 At Dantique</a>
+
+            <a href="index.html" class="">
+              Home
+            </a>
+            
+          </div>
+        </div>
+        
+<!--         <div class="col-md-6 px-0">
+         <div class="img-box ">
+            <img src="images/about-img.jpg" class="box_img" alt="about img">
+          </div>
+-->
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section ends -->
+
+  <!-- team section -->
+
+  <section class="about_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="detail-box pr-md-2">
+            <div class="heading_container">
+              <br>
+              <br>
+              <h2 class="">
+                Attractions
+              </h2>
+              <h3>
+                室內_文創
+              </h3>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <h3>
+                室內_工廠
+              </h3>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/6055">創意觀光工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/573">家具產業博物館</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/1438">虹泰水凝膠世界</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/4344">台鉅美妝觀光工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/4359">奇美食品幸福工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/1431">地瓜生態故事館</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/916">黑橋牌香腸博物館</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/1435">新百祿燕窩觀光工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/912">立康中草藥產業文化館</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/4353">華美光學eye玩視界</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/913">港香蘭綠色健康知識館</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/4342">足部科學體驗中心</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/556">啤酒觀光工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/5514">彼緹娃藝術蛋糕觀光工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/1425">HMTM 和明織品文化館</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/537">酒廠北蟲草文化展示園區</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/1436">天一中藥生活化園區</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/5994">蘭都觀光工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/4343">東和蜂文化觀光工廠</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/1433">卡多利亞良食故事館</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/5513">美雅家具觀光工廠
+
+              </a>
+              <h3>
+                室內_展覽
+              </h3>
+              <a href=""></a>
+              <h3>
+                室外_踏青
+              </h3>
+              <a href=""></a>
+              <h3>
+                室外_名勝古蹟
+              </h3>
+              <a href=""></a>
+              <h3>
+                室外_民俗活動
+              </h3>
+              <a href=""></a>
+
+            </div>
+
+           
+
+            <<a href="index.html" class="">
+              Home
+            </a>
+          </div>
+        </div>
+
+  <!-- end team section -->
+
+  <!-- contact section -->
+  <section class="contact_section ">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="img-box ">
+            <img src="images/contact-img.jpg" class="box_img" alt="about img">
+          </div>
+        </div>
+        <div class="col-md-5 mx-auto">
+          <div class="form_container">
+            <div class="heading_container heading_center">
+              <h2>Get In Touch</h2>
+            </div>
+            <form action="">
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" class="form-control" placeholder="Your Name" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-lg-6">
+                  <input type="text" class="form-control" placeholder="Phone Number" />
+                </div>
+                <div class="form-group col-lg-6">
+                  <select name="" id="" class="form-control wide">
+                    <option value="">Select Service</option>
+                    <option value="">Service 1</option>
+                    <option value="">Service 2</option>
+                    <option value="">Service 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="email" class="form-control" placeholder="Email" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" class="message-box form-control" placeholder="Message" />
+                </div>
+              </div>
+              <div class="btn_box">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container ">
+      <div class="heading_container heading_center">
+        <h2>
+          Testimonial
+        </h2>
+        <hr>
+      </div>
+      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-7 col-md-9 mx-auto">
+                <div class="client_container ">
+                  <div class="img-box">
+                    <img src="images/client.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Jone Mark
+                    </h5>
+                    <p>
+                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                    </p>
+                    <span>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-7 col-md-9 mx-auto">
+                <div class="client_container ">
+                  <div class="img-box">
+                    <img src="images/client.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Jone Mark
+                    </h5>
+                    <p>
+                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                    </p>
+                    <span>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-7 col-md-9 mx-auto">
+                <div class="client_container ">
+                  <div class="img-box">
+                    <img src="images/client.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Jone Mark
+                    </h5>
+                    <p>
+                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                    </p>
+                    <span>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_btn-box">
+          <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+            <span>
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+            <span>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="info_top">
+        <div class="row">
+          <div class="col-md-3 ">
+            <a class="navbar-brand" href="index.html">
+              Finter
+            </a>
+          </div>
+          <div class="col-md-5 ">
+            <div class="info_contact">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  +01 1234567890
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="social_box">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info_bottom">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="info_detail">
+              <h5>
+                Company
+              </h5>
+              <p>
+                Randomised words which don't look even slightly believable. If you are going to use a passage of
+                Lorem
+                Ipsum, you need to be sure
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="info_form">
+              <h5>
+                NEWSLETTER
+              </h5>
+              <form action="">
+                <input type="text" placeholder="Enter Your Email" />
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="info_detail">
+              <h5>
+                Services
+              </h5>
+              <p>
+                Randomised words which don't look even slightly believable. If you are going to use a passage of
+                Lorem
+                Ipsum, you need to be sure
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="">
+              <h5>
+                Useful links
+              </h5>
+              <ul class="info_menu">
+                <li>
+                  <a href="index.html">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="service.html">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="team.html">
+                    Team
+                  </a>
+                </li>
+                <li class="mb-0">
+                  <a href="contact.html">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+</body>
+
 </html>
-
